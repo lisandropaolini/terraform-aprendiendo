@@ -1,6 +1,10 @@
 # Local .terraform directories
 **/.terraform/*
 
+config.sh
+**/AWSCLIV2.pkg
+**/.DS_Store
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
@@ -32,3 +36,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+terraform.tfstate.backup
+**/.terraform.lock.hcl
